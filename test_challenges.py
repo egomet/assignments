@@ -25,7 +25,7 @@ TEST_CASES = [
 @pytest.fixture(scope='module')
 def tb():
     # Make sure this matches the exact name of the starter notebook!
-    with testbook('Practice.ipynb', execute=True) as tb:
+    with testbook('ZScoreNormalization.ipynb', execute=True) as tb:
         yield tb
 
 # The parameterize decorator feeds the tuples one by one into the test
